@@ -10,6 +10,9 @@ class Role extends Model
 {
     use HasFactory;
 
+    const ROLE_ADMINISTRATOR = 1;
+    const ROLE_PROPERTY_OWNER = 2;
+    const ROLE_STUDENT = 3;
     protected $guarded = [];
 
     /**
